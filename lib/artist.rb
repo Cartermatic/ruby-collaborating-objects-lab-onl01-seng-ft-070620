@@ -30,8 +30,12 @@ class Artist
     self.all.find {|artist| artist.name == name}
   end
   
-  def self.find_or_create_by_name
+  def self.find_or_create_by_name(name)
+    find_by_name
   
+    
+  
+
 end
 
 
