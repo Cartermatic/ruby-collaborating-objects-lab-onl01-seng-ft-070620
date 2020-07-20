@@ -42,9 +42,6 @@ class Artist
     print @@all
   end
   
-    
-  
-
 end
 
 
