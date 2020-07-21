@@ -41,7 +41,7 @@ class Artist
   def print_songs
     Song.all.select do |song|
       if song.artist == Song
-        puts 
+        puts song
   
   end
   
