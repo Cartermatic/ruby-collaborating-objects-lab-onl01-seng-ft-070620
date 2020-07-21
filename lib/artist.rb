@@ -40,6 +40,7 @@ class Artist
   
   def print_songs
     Song.all.select {|song| song.artist == Song}
+  
   end
   
 end
