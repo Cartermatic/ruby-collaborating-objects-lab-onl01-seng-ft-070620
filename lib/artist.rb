@@ -40,8 +40,11 @@ class Artist
   
   def print_songs
     Song.all.select do |song|
-      if song.artist == Song
-        puts song
+      if song.artist == self
+        puts song.name
+      end
+    end
+  end
   
   end
   
